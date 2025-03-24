@@ -5,14 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env index.js",
-    "dev": "nodemon --env-file=.env index.js"
+    "start": "node --env-file=.env src/index.js",
+    "dev": "nodemon --env-file=.env src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "author": "rahul pharthyal",
   "license": "ISC",
   "packageManager": "yarn@4.4.1",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.12.2",
